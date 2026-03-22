@@ -37,5 +37,6 @@ export interface Poi {
   mealType?: 'lunch' | 'cafe';
   website?: string;
   menuUrl?: string;
+  googleMapsUrl?: string;
   photo?: string;
 }

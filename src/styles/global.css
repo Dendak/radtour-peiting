@@ -246,6 +246,28 @@ body {
   line-height: 1.4;
 }
 
+.poi-links {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.poi-links a {
+  font-size: 0.75rem;
+  color: var(--accent);
+  text-decoration: none;
+  background: #eef2ff;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.poi-links a:hover {
+  background: #dbeafe;
+  text-decoration: underline;
+}
+
 .poi-content a {
   font-size: 0.8rem;
   color: var(--accent);

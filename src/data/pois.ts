@@ -20,7 +20,7 @@ export const pois: Poi[] = [
   // =============================================
   // WIESKIRCHE & STEINGADEN (Fr)
   // =============================================
-  { id: 'kloster-rottenbuch', routeId: 'wieskirche', lat: 47.7327, lng: 10.9663, name: 'Kloster Rottenbuch', type: 'church', description: 'Augustinerchorherrenstift mit prachtvoller Rokoko-Ausstattung.' },
+  { id: 'kloster-rottenbuch', routeId: 'wieskirche', lat: 47.7327, lng: 10.9663, name: 'Kloster Rottenbuch', type: 'church', description: 'Augustinerchorherrenstift mit prachtvoller Rokoko-Ausstattung.', photo: 'photos/rottenbuch.jpg' },
   { id: 'wieskirche', routeId: 'wieskirche', lat: 47.6808, lng: 10.9010, name: 'Wieskirche', type: 'church', description: 'UNESCO-Welterbe — Meisterwerk des bayerischen Rokoko.', photo: 'photos/wieskirche.jpg' },
   { id: 'steingaden-kloster', routeId: 'wieskirche', lat: 47.7036, lng: 10.8625, name: 'Kloster Steingaden', type: 'church', description: 'Romanisches Prämonstratenserstift aus dem 12. Jahrhundert.', photo: 'photos/steingaden.jpg' },
   { id: 'schongau-wies', routeId: 'wieskirche', lat: 47.8131, lng: 10.8946, name: 'Schongauer Altstadt', type: 'town', description: 'Mittelalterliche Altstadt mit komplett erhaltener Stadtmauer.', photo: 'photos/schongau.jpg' },
@@ -53,9 +53,9 @@ export const pois: Poi[] = [
   // KAUFBEUREN & MARKTOBERDORF (So)
   // =============================================
   { id: 'schongau-kauf', routeId: 'kaufbeuren', lat: 47.8131, lng: 10.8946, name: 'Schongau — Altstadt', type: 'town', description: 'Mittelalterliche Altstadt mit erhaltener Stadtmauer.', photo: 'photos/schongau.jpg' },
-  { id: 'marktoberdorf', routeId: 'kaufbeuren', lat: 47.7792, lng: 10.6173, name: 'Marktoberdorf', type: 'town', description: 'Kreisstadt des Ostallgäus mit Barockkirche St. Martin.' },
-  { id: 'kaufbeuren-altstadt', routeId: 'kaufbeuren', lat: 47.8804, lng: 10.6220, name: 'Kaufbeurer Altstadt', type: 'town', description: 'Mittelalterliche Altstadt mit Blasiuskirche und Neptunbrunnen.' },
-  { id: 'kloster-irsee', routeId: 'kaufbeuren', lat: 47.9066, lng: 10.5739, name: 'Kloster Irsee', type: 'church', description: 'Barockes Benediktinerkloster — heute Tagungszentrum.' },
+  { id: 'marktoberdorf', routeId: 'kaufbeuren', lat: 47.7792, lng: 10.6173, name: 'Marktoberdorf', type: 'town', description: 'Kreisstadt des Ostallgäus mit Barockkirche St. Martin.', photo: 'photos/marktoberdorf.jpg' },
+  { id: 'kaufbeuren-altstadt', routeId: 'kaufbeuren', lat: 47.8804, lng: 10.6220, name: 'Kaufbeurer Altstadt', type: 'town', description: 'Mittelalterliche Altstadt mit Blasiuskirche und Neptunbrunnen.', photo: 'photos/kaufbeuren.jpg' },
+  { id: 'kloster-irsee', routeId: 'kaufbeuren', lat: 47.9066, lng: 10.5739, name: 'Kloster Irsee', type: 'church', description: 'Barockes Benediktinerkloster — heute Tagungszentrum.', photo: 'photos/irsee.jpg' },
   // Mittagessen
   { id: 'goldener-hirsch', routeId: 'kaufbeuren', lat: 47.8800, lng: 10.6230, name: 'Goldener Hirsch Kaufbeuren', type: 'gasthaus', description: 'Traditionsgasthof in der Altstadt.', menuUrl: 'https://www.goldener-hirsch-kaufbeuren.de/' },
   { id: 'braustueberl-irsee', routeId: 'kaufbeuren', lat: 47.9062, lng: 10.5745, name: 'Klosterbräustüberl Irsee', type: 'biergarten', description: 'Biergarten am Kloster. Regionales Bier und deftige Brotzeit.' },
@@ -83,9 +83,9 @@ export const pois: Poi[] = [
   // =============================================
   // FORGGENSEE & FÜSSEN (A2)
   // =============================================
-  { id: 'neuschwanstein', routeId: 'forggensee', lat: 47.5576, lng: 10.7498, name: 'Schloss Neuschwanstein', type: 'viewpoint', description: 'Das berühmteste Schloss der Welt — Märchenschloss Ludwigs II.' },
-  { id: 'forggensee-blick', routeId: 'forggensee', lat: 47.5838, lng: 10.7120, name: 'Forggensee', type: 'lake', description: 'Fünftgrößter See Bayerns mit Blick auf die Königsschlösser.' },
-  { id: 'fuessen-altstadt', routeId: 'forggensee', lat: 47.5694, lng: 10.6982, name: 'Füssen — Altstadt', type: 'town', description: 'Romantische Altstadt mit Hohem Schloss und Kloster St. Mang.' },
+  { id: 'neuschwanstein', routeId: 'forggensee', lat: 47.5576, lng: 10.7498, name: 'Schloss Neuschwanstein', type: 'viewpoint', description: 'Das berühmteste Schloss der Welt — Märchenschloss Ludwigs II.', photo: 'photos/neuschwanstein.jpg' },
+  { id: 'forggensee-blick', routeId: 'forggensee', lat: 47.5838, lng: 10.7120, name: 'Forggensee', type: 'lake', description: 'Fünftgrößter See Bayerns mit Blick auf die Königsschlösser.', photo: 'photos/forggensee.jpg' },
+  { id: 'fuessen-altstadt', routeId: 'forggensee', lat: 47.5694, lng: 10.6982, name: 'Füssen — Altstadt', type: 'town', description: 'Romantische Altstadt mit Hohem Schloss und Kloster St. Mang.', photo: 'photos/fuessen.jpg' },
   { id: 'lechbruck-steg', routeId: 'forggensee', lat: 47.7131, lng: 10.7954, name: 'Lechbruck — Flößersteg', type: 'viewpoint', description: 'Längste Hängebrücke des Allgäus über den Lech.' },
   // Mittagessen
   { id: 'krone-fuessen', routeId: 'forggensee', lat: 47.5700, lng: 10.7000, name: 'Gasthof Krone Füssen', type: 'gasthaus', description: 'Traditionsgasthof in der Altstadt mit Allgäuer Küche.' },

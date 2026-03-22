@@ -8,7 +8,7 @@ export const routes: RouteConfig[] = [
     title: 'Ammersee-Runde',
     gpxFile: 'ammersee.gpx',
     color: '#2563eb',
-    description: 'Rund um den Ammersee über Dießen, Herrsching und Andechs. Seepanorama und Alpenkette am Horizont.',
+    description: 'Die große Ammersee-Runde führt durch die sanfte Moränenlandschaft des Pfaffenwinkels zum zweitgrößten See Oberbayerns. An der Erdfunkstelle Raisting vorbei erreicht ihr Dießen — seit Jahrhunderten Töpfer- und Künstlerort am Südufer. Weiter am Westufer entlang geht es über Schondorf nach Herrsching mit der längsten Seepromenade Bayerns. Auf dem Rückweg lohnt der Abstecher zum Kloster Andechs mit seinem legendären Biergarten. Überwiegend flach am See, einige Anstiege bei Andechs. Gut ausgebaute Radwege.',
   },
   {
     id: 'wieskirche',
@@ -17,7 +17,7 @@ export const routes: RouteConfig[] = [
     title: 'Wieskirche & Steingaden',
     gpxFile: 'wieskirche.gpx',
     color: '#d946ef',
-    description: 'Zur UNESCO-Welterbe Wieskirche über Rottenbuch und Steingaden. Pfaffenwinkel pur.',
+    description: 'Durch das Herz des Pfaffenwinkels zur berühmtesten Rokokokirche der Welt. Zunächst nach Rottenbuch mit seinem prachtvollen Augustinerchorherrenstift (1073 gegründet). Weiter über Wildsteig zur UNESCO-Welterbe Wieskirche — Dominikus Zimmermanns Meisterwerk von 1745, erbaut nach einem Tränenwunder. In Steingaden das romanische Kloster besichtigen, dann über Schongau mit seiner vollständig erhaltenen mittelalterlichen Stadtmauer zurück. Einige Höhenmeter im Voralpenland, aber keine extremen Steigungen.',
   },
   {
     id: 'staffelsee',
@@ -26,7 +26,7 @@ export const routes: RouteConfig[] = [
     title: 'Staffelsee & Murnau',
     gpxFile: 'staffelsee.gpx',
     color: '#ea580c',
-    description: 'Durch das Murnauer Moos zum Staffelsee und in die Künstlerstadt Murnau — Heimat des Blauen Reiters.',
+    description: 'Eine Tour durch Kunst und Natur. Über Weilheim und Huglfing zum Staffelsee — einem der wärmsten Voralpenseen mit sieben Inseln. In Murnau auf den Spuren von Kandinsky und Gabriele Münter: Das Münter-Haus (das „Russenhaus") war Geburtsstätte der Künstlergruppe „Der Blaue Reiter". Das Murnauer Moos, größtes zusammenhängendes Moorgebiet Mitteleuropas, bietet bei klarem Wetter ein atemberaubendes Zugspitz-Panorama. Wellige Strecke mit einigen Anstiegen, längste Tour der Woche.',
   },
   {
     id: 'kaufbeuren',
@@ -35,7 +35,7 @@ export const routes: RouteConfig[] = [
     title: 'Kaufbeuren & Marktoberdorf',
     gpxFile: 'kaufbeuren.gpx',
     color: '#dc2626',
-    description: 'Durch das Ostallgäu nach Marktoberdorf und Kaufbeuren. Kloster Irsee und mittelalterliche Altstädte.',
+    description: 'Hinein ins Ostallgäu. Über Schongau mit seiner Stadtmauer nach Marktoberdorf, der gemütlichen Kreisstadt mit der Barockkirche St. Martin. Weiter nach Kaufbeuren — eine der ältesten Städte im Allgäu mit mittelalterlicher Altstadt, Blasiuskirche und dem jährlichen Tänzelfest. Auf dem Rückweg Halt am barocken Kloster Irsee (1182 gegründet), heute Tagungszentrum mit einladendem Biergarten. Sanft hügelige Allgäuer Landschaft, gut befahrbar.',
   },
   {
     id: 'landsberg',
@@ -44,7 +44,7 @@ export const routes: RouteConfig[] = [
     title: 'Landsberg am Lech',
     gpxFile: 'landsberg.gpx',
     color: '#0891b2',
-    description: 'Entlang des Lechs nach Norden zur malerischen Altstadt von Landsberg mit dem berühmten Bayertor.',
+    description: 'Dem Lech nach Norden folgend. Über Kinsau und Apfeldorf durch das Lechtal nach Landsberg — eine der besterhaltenen Altstädte Bayerns. Das gotische Bayertor (15. Jh.) gilt als eines der schönsten Stadttore Süddeutschlands. Der Hauptplatz mit seinem barocken Rathaus und das historische Lechwehr sind Postkartenmotive. Meist flache Strecke entlang des Flusses, sehr angenehm zu fahren. Guter Lech-Radweg.',
   },
   {
     id: 'forggensee',
@@ -53,6 +53,6 @@ export const routes: RouteConfig[] = [
     title: 'Forggensee & Füssen',
     gpxFile: 'forggensee.gpx',
     color: '#059669',
-    description: 'Zum Forggensee und Füssen mit Blick auf Neuschwanstein. Königsschlösser und Voralpenlandschaft.',
+    description: 'Die Königstour an die Grenze zu Tirol. Über Steingaden und Halblech nach Schwangau mit Blick auf Schloss Neuschwanstein — König Ludwigs II. Märchenschloss von 1869. Weiter nach Füssen mit seiner romantischen Altstadt, dem Hohen Schloss und dem Kloster St. Mang. Am Forggensee entlang — Bayerns fünftgrößtem See — über Roßhaupten und Lechbruck zurück, dort über den Flößersteg, die längste Hängebrücke des Allgäus. Einige Höhenmeter, aber lohnend durch die spektakuläre Alpenkulisse.',
   },
 ];

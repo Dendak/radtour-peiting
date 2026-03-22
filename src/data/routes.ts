@@ -1,0 +1,58 @@
+import type { RouteConfig } from './types';
+
+export const routes: RouteConfig[] = [
+  {
+    id: 'ammersee',
+    day: 'Donnerstag',
+    shortDay: 'Do',
+    title: 'Ammersee-Runde',
+    gpxFile: 'ammersee.gpx',
+    color: '#2563eb',
+    description: 'Rund um den Ammersee über Dießen, Herrsching und Andechs. Seepanorama und Alpenkette am Horizont.',
+  },
+  {
+    id: 'wieskirche',
+    day: 'Freitag',
+    shortDay: 'Fr',
+    title: 'Wieskirche & Steingaden',
+    gpxFile: 'wieskirche.gpx',
+    color: '#d946ef',
+    description: 'Zur UNESCO-Welterbe Wieskirche über Rottenbuch und Steingaden. Pfaffenwinkel pur.',
+  },
+  {
+    id: 'staffelsee',
+    day: 'Samstag',
+    shortDay: 'Sa',
+    title: 'Staffelsee & Murnau',
+    gpxFile: 'staffelsee.gpx',
+    color: '#ea580c',
+    description: 'Durch das Murnauer Moos zum Staffelsee und in die Künstlerstadt Murnau — Heimat des Blauen Reiters.',
+  },
+  {
+    id: 'kaufbeuren',
+    day: 'Sonntag',
+    shortDay: 'So',
+    title: 'Kaufbeuren & Marktoberdorf',
+    gpxFile: 'kaufbeuren.gpx',
+    color: '#dc2626',
+    description: 'Durch das Ostallgäu nach Marktoberdorf und Kaufbeuren. Kloster Irsee und mittelalterliche Altstädte.',
+  },
+  {
+    id: 'landsberg',
+    day: 'Alternative 1',
+    shortDay: 'A1',
+    title: 'Landsberg am Lech',
+    gpxFile: 'landsberg.gpx',
+    color: '#0891b2',
+    description: 'Entlang des Lechs nach Norden zur malerischen Altstadt von Landsberg mit dem berühmten Bayertor.',
+  },
+  {
+    id: 'forggensee',
+    day: 'Alternative 2',
+    shortDay: 'A2',
+    title: 'Forggensee & Füssen',
+    gpxFile: 'forggensee.gpx',
+    color: '#059669',
+    description: 'Zum Forggensee und Füssen mit Blick auf Neuschwanstein. Königsschlösser und Voralpenlandschaft.',
+  },
+];

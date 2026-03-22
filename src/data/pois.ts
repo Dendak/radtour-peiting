@@ -9,13 +9,13 @@ export const pois: Poi[] = [
   { id: 'herrsching', routeId: 'ammersee', lat: 47.9991, lng: 11.1763, name: 'Herrsching — Seepromenade', type: 'lake', description: 'Die längste Seepromenade Bayerns mit Blick auf die Alpen.', photo: 'photos/herrsching.jpg' },
   { id: 'kloster-andechs', routeId: 'ammersee', lat: 47.9747, lng: 11.1821, name: 'Kloster Andechs', type: 'church', description: 'Benediktinerkloster auf dem Heiligen Berg mit legendärer Brauerei.', photo: 'photos/andechs.jpg' },
   // Mittagessen
-  { id: 'unterbraeu-diessen', routeId: 'ammersee', lat: 47.9492, lng: 11.1075, name: 'Gasthof Unterbräu Dießen', type: 'gasthaus', description: 'Traditionshaus im Herzen von Dießen. Frischer Ammersee-Fisch.', menuUrl: 'https://www.unterbraeu-diessen.de/speisekarte/' },
-  { id: 'seehof-herrsching', routeId: 'ammersee', lat: 48.0001, lng: 11.1748, name: 'Seehof Herrsching', type: 'biergarten', description: 'Biergarten direkt am See mit Alpenpanorama.', menuUrl: 'https://seehof-ammersee.de/en/restaurant/' },
-  { id: 'andechs-braeuhaus', routeId: 'ammersee', lat: 47.9743, lng: 11.1830, name: 'Klosterbräustüberl Andechs', type: 'biergarten', description: 'Legendärer Biergarten. Schweinshaxe und Andechser Bier.', menuUrl: 'https://andechs.de/braustueberl/speisekarte/' },
+  { id: 'unterbraeu-diessen', routeId: 'ammersee', lat: 47.9492, lng: 11.1075, name: 'Gasthof Unterbräu Dießen', type: 'gasthaus', description: 'Traditionshaus im Herzen von Dießen. Frischer Ammersee-Fisch.', menuUrl: 'https://www.unterbraeu-diessen.de/speisekarte/', photo: 'photos/unterbraeu.jpg' },
+  { id: 'seehof-herrsching', routeId: 'ammersee', lat: 48.0001, lng: 11.1748, name: 'Seehof Herrsching', type: 'biergarten', description: 'Biergarten direkt am See mit Alpenpanorama.', menuUrl: 'https://seehof-ammersee.de/en/restaurant/', photo: 'photos/seehof.jpg' },
+  { id: 'andechs-braeuhaus', routeId: 'ammersee', lat: 47.9743, lng: 11.1830, name: 'Klosterbräustüberl Andechs', type: 'biergarten', description: 'Legendärer Biergarten. Schweinshaxe und Andechser Bier.', menuUrl: 'https://andechs.de/braustueberl/speisekarte/', photo: 'photos/andechs-bier.jpg' },
   // Cafés
-  { id: 'goldammer-diessen', routeId: 'ammersee', lat: 47.9494, lng: 11.1055, name: 'Café Goldammer Dießen', type: 'cafe', description: 'Seit 120 Jahren Konditorei-Tradition. Bio-Kuchen und Torten.', menuUrl: 'https://www.diegoldammer.de/' },
-  { id: 'schokosphaere', routeId: 'ammersee', lat: 47.9909, lng: 11.1549, name: 'SchokoSphäre Breitbrunn', type: 'cafe', description: 'Chocolatier-Café mit handgefertigten Pralinen.', menuUrl: 'https://schokosphaere.de/' },
-  { id: 'forster-schondorf', routeId: 'ammersee', lat: 48.0562, lng: 11.0972, name: 'Café Forster Schondorf', type: 'cafe', description: 'Historisches Seecafé im Bootshausstil.', menuUrl: 'https://www.cafeforster.de/' },
+  { id: 'goldammer-diessen', routeId: 'ammersee', lat: 47.9494, lng: 11.1055, name: 'Café Goldammer Dießen', type: 'cafe', description: 'Seit 120 Jahren Konditorei-Tradition. Bio-Kuchen und Torten.', menuUrl: 'https://www.diegoldammer.de/', photo: 'photos/goldammer.jpg' },
+  { id: 'schokosphaere', routeId: 'ammersee', lat: 47.9909, lng: 11.1549, name: 'SchokoSphäre Breitbrunn', type: 'cafe', description: 'Chocolatier-Café mit handgefertigten Pralinen.', menuUrl: 'https://schokosphaere.de/', photo: 'photos/schokosphaere.jpg' },
+  { id: 'forster-schondorf', routeId: 'ammersee', lat: 48.0562, lng: 11.0972, name: 'Café Forster Schondorf', type: 'cafe', description: 'Historisches Seecafé im Bootshausstil.', menuUrl: 'https://www.cafeforster.de/', photo: 'photos/forster-cafe.jpg' },
 
   // =============================================
   // WIESKIRCHE & STEINGADEN (Fr)
@@ -26,10 +26,10 @@ export const pois: Poi[] = [
   { id: 'schongau-wies', routeId: 'wieskirche', lat: 47.8131, lng: 10.8946, name: 'Schongauer Altstadt', type: 'town', description: 'Mittelalterliche Altstadt mit komplett erhaltener Stadtmauer.', photo: 'photos/schongau.jpg' },
   // Mittagessen
   { id: 'schweiger-wies', routeId: 'wieskirche', lat: 47.6811, lng: 10.8990, name: 'Gasthof Schweiger (Wieskirche)', type: 'gasthaus', description: 'Seit 1751, direkt neben der Wieskirche. Berühmte Auszogene! Fr Ruhetag.', menuUrl: 'https://www.gasthof-schweiger-wieskirche.de/speisekarte.html' },
-  { id: 'graf-steingaden', routeId: 'wieskirche', lat: 47.7038, lng: 10.8644, name: 'Gasthof Graf Steingaden', type: 'gasthaus', description: 'Landgasthof mit Biergarten. Regionale Küche und Wild.', menuUrl: 'https://www.gasthof-graf.de/en/menu' },
-  { id: 'brauhaus-schongau', routeId: 'wieskirche', lat: 47.8140, lng: 10.8955, name: 'Schongauer Brauhaus', type: 'gasthaus', description: 'Jugendstil-Brauerei mit hausgebrautem Bier.', menuUrl: 'https://brauhaus-schongau.de/unsere-aktuelle-speisekarte/' },
+  { id: 'graf-steingaden', routeId: 'wieskirche', lat: 47.7038, lng: 10.8644, name: 'Gasthof Graf Steingaden', type: 'gasthaus', description: 'Landgasthof mit Biergarten. Regionale Küche und Wild.', menuUrl: 'https://www.gasthof-graf.de/en/menu', photo: 'photos/graf.jpg' },
+  { id: 'brauhaus-schongau', routeId: 'wieskirche', lat: 47.8140, lng: 10.8955, name: 'Schongauer Brauhaus', type: 'gasthaus', description: 'Jugendstil-Brauerei mit hausgebrautem Bier.', menuUrl: 'https://brauhaus-schongau.de/unsere-aktuelle-speisekarte/', photo: 'photos/brauhaus-sg.jpg' },
   // Cafés
-  { id: 'ballenhaus-schongau', routeId: 'wieskirche', lat: 47.8127, lng: 10.8942, name: 'Ballenhaus Café Schongau', type: 'cafe', description: 'Bistro-Café am Marienplatz.', menuUrl: 'https://www.ballenhaus-schongau.de/' },
+  { id: 'ballenhaus-schongau', routeId: 'wieskirche', lat: 47.8127, lng: 10.8942, name: 'Ballenhaus Café Schongau', type: 'cafe', description: 'Bistro-Café am Marienplatz.', menuUrl: 'https://www.ballenhaus-schongau.de/', photo: 'photos/ballenhaus.jpg' },
   { id: 'moser-wieskirche', routeId: 'wieskirche', lat: 47.6815, lng: 10.9005, name: 'Gasthof Moser (Kaffee)', type: 'cafe', description: 'Kaffee und Kuchen direkt an der Wieskirche.', menuUrl: 'https://www.gasthof-moser.de/' },
   { id: 'cafe-rottenbuch', routeId: 'wieskirche', lat: 47.7330, lng: 10.9670, name: 'Klosterstüberl Rottenbuch', type: 'cafe', description: 'Café im Klosterhof mit Kuchen und Sonnenterrasse.' },
 
@@ -41,7 +41,7 @@ export const pois: Poi[] = [
   { id: 'muenter-haus', routeId: 'staffelsee', lat: 47.6785, lng: 11.1981, name: 'Münter-Haus', type: 'museum', description: 'Das „Russenhaus" — Geburtsstätte des Blauen Reiters.', photo: 'photos/muenter-haus.jpg' },
   { id: 'murnauer-moos', routeId: 'staffelsee', lat: 47.6550, lng: 11.1810, name: 'Murnauer Moos', type: 'viewpoint', description: 'Größtes Moorgebiet Mitteleuropas mit Zugspitz-Panorama.', photo: 'photos/murnauer-moos.jpg' },
   // Mittagessen
-  { id: 'griesbraeu-murnau', routeId: 'staffelsee', lat: 47.6810, lng: 11.2020, name: 'Griesbräu zu Murnau', type: 'gasthaus', description: 'Historische Brauerei mit hauseigenem Bier und Biergarten.', menuUrl: 'https://www.griesbraeu.de/speisekarte/' },
+  { id: 'griesbraeu-murnau', routeId: 'staffelsee', lat: 47.6810, lng: 11.2020, name: 'Griesbräu zu Murnau', type: 'gasthaus', description: 'Historische Brauerei mit hauseigenem Bier und Biergarten.', menuUrl: 'https://www.griesbraeu.de/speisekarte/', photo: 'photos/griesbraeu.jpg' },
   { id: 'auszeit-uffing', routeId: 'staffelsee', lat: 47.7199, lng: 11.1531, name: 'Gasthaus Uffing', type: 'gasthaus', description: 'Gemütlicher Gasthof am Staffelsee.' },
   { id: 'alpenblick-murnau', routeId: 'staffelsee', lat: 47.6820, lng: 11.2000, name: 'Gasthof Alpenblick Murnau', type: 'gasthaus', description: 'Bayerische Wirtshausküche mit Blick auf die Alpen.' },
   // Cafés
@@ -72,7 +72,7 @@ export const pois: Poi[] = [
   { id: 'landsberg-hauptplatz', routeId: 'landsberg', lat: 48.0510, lng: 10.8700, name: 'Hauptplatz Landsberg', type: 'town', description: 'Malerischer Marktplatz mit Rathaus und Marienbrunnen.' },
   { id: 'lechfall-landsberg', routeId: 'landsberg', lat: 48.0480, lng: 10.8680, name: 'Lechwehr Landsberg', type: 'viewpoint', description: 'Historisches Wehr mit beeindruckendem Wasserfall.' },
   // Mittagessen
-  { id: 'hellmairs', routeId: 'landsberg', lat: 48.0512, lng: 10.8715, name: 'Hellmairs Landsberg', type: 'gasthaus', description: 'Wirtshaus am Hauptplatz. Bayerische Küche.', menuUrl: 'https://www.hellmairs.de/speisekarte/' },
+  { id: 'hellmairs', routeId: 'landsberg', lat: 48.0512, lng: 10.8715, name: 'Hellmairs Landsberg', type: 'gasthaus', description: 'Wirtshaus am Hauptplatz. Bayerische Küche.', menuUrl: 'https://www.hellmairs.de/speisekarte/', photo: 'photos/hellmairs.jpg' },
   { id: 'suessbreu', routeId: 'landsberg', lat: 48.0505, lng: 10.8690, name: 'Süßbräu Landsberg', type: 'gasthaus', description: 'Traditionelle Brauerei-Gaststätte mit hauseigenem Bier.' },
   { id: 'gasthof-kinsau', routeId: 'landsberg', lat: 47.8560, lng: 10.8960, name: 'Gasthof Kinsau', type: 'gasthaus', description: 'Dorfgasthof mit bürgerlicher Küche auf der Hinfahrt.' },
   // Cafés
